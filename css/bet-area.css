@@ -1,0 +1,21 @@
+#bet-area{
+    height: 100px;
+    background-color: rgb(184, 107, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+button, input, select {
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bolder;
+}

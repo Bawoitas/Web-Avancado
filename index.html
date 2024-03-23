@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <link rel="stylesheet" href="css/speedway.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/runners.css">
+    <link rel="stylesheet" href="css/bet-area.css">
+</head>
+<body>
+    <div id="bet-area">
+        <h1>Urubu do Pix</h1>
+        <p id="user-balance">$100</p>
+        <select id="runnersSelect">
+            <option value="aston">Aston</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="haas">Haas</option>
+            <option value="mclaren">McLaren</option>
+            <option value="redbull">Red Bull</option>
+        </select>
+        <input id="amountInput" type="text" placeholder="How much?">
+        <button id="makeBetButton"onclick="makeABet()">Make a bet</button>
+        <button id="retryButton" onclick="retryBet()" disabled>Retry</button>
+    </div>
+    <div id="speedway">
+        <div id="aston" class="runner"></div>
+        <div id="ferrari" class="runner"></div>
+        <div id="haas" class="runner"></div>
+        <div id="mclaren" class="runner"></div>
+        <div id="redbull" class="runner"></div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

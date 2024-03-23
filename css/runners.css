@@ -1,0 +1,30 @@
+.runner {
+  height: 100px;
+  width: 100px;
+  display: flex;
+}
+
+#aston {
+  background-image: url(../public/aston-martin.png);
+  background-size: 100px 100px;
+}
+
+#ferrari {
+  background-image: url(../public/ferrari.png);
+  background-size: 100px 100px;
+}
+
+#haas {
+  background-image: url(../public/haas.png);
+  background-size: 100px 100px;
+}
+
+#mclaren {
+  background-image: url(../public/mclaren.png);
+  background-size: 100px 100px;
+}
+
+#redbull {
+  background-image: url(../public/red-bull.png);
+  background-size: 100px 100px;
+}
